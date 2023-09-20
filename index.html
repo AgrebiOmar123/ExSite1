@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          font-size: x-large;
+          font-style: italic;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px #dddddd;
+          text-align: center;
+          background-color:white;          
+         
+        }
+        a:link, a:visited {
+        
+        color: rgba(167, 165, 165, 0.945);
+         padding: 15px 25px;
+         text-align: center;
+         text-decoration: none;
+        display: inline-block;
+        }
+
+        a:hover, a:active {
+        color:rgb(214, 18, 28);
+        }
+      
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+p.one {
+  border-style: solid;
+  border-width: 5px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+div.three {
+  border-style: dotted;
+  border-width: 2px;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+      
+</head>
+<body style="background-color:black;">
+<div>
+    <table>
+        <tr>
+          <th style="width:10%"><img src="lg1.png" alt="Girl in a jacket" width="100" height="100"></th>
+          <th style="width:30%">
+            <img src="home.png" alt="Girl in a jacket" width="20" height="20">
+            <a href="index.html" target="_blank">Home</a>
+        </th>
+          
+          <th style="width:30%">
+            <img src="equipment.png" width="20" height="20">
+            <a href="Products.html" target="_blank">Products</a>
+          </th>
+          <th style="width:30%">
+            <img src="support.png" width="20" height="20">
+            <a href="Contact.html" target="_blank">Contact</a></th>
+        </tr>
+    </table>
+</div>
+    
+<div>
+  <table>
+    <tr>
+        <th style="width:15%"></th>
+        <th style="width:70%"><img style="text-align:right;padding-left: 100;" src="lg.gif" alt="Girl in a jacket" width="100%" height="600"></th>
+        <th style="width:15%"></th>
+    </tr>
+  </table>
+    
+</div>
+<div>
+    <table>
+            <tr>
+              <th style="width:50%">
+                    <p class="one" style="color:rgb(0, 0, 0)">
+                      <strong style="font-size:xx-large; color: red;">LG Corp (auparavant LG Group ou Lucky-GoldStar) <br></strong>
+                      <div class="three" style ="text-align: justify;font-size: large;">
+                      <span style ="font-size: x-large;color: gray;">LG</span> est un chaebol (conglomérat industriel sud-coréen)
+                       ou société de portefeuille, 
+                       spécialisé dans l'électronique (dont la domotique), 
+                      les téléphones portables, l'air climatisé (troisième entreprise mondiale), 
+                      le petit électroménager et depuis 2008 les Business Solutions (solaire, sécurité)2.
+                      Cette entreprise a été créée par Koo In-hwoi (en),
+                       qui a laissé sa place à son fils aîné Koo Bon-moo (en) en 1995.
+                        Au total, la famille Koo détient des participations dans 17 filiales
+                         du groupe LG, dont 45,25 % dans LG Chemical et 35,89 % dans LG Capital Services.
+                        </div>
+                        </p>
+              </th>
+              <th style="width:50%">
+                <div class="slideshow-container">
+
+                  <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="equip1.avif" style="width:80%">
+                    <div class="text">Caption Text</div>
+                  </div>
+                  
+                  <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="equip2.webp" style="width:80%">
+                    <div class="text">Caption Two</div>
+                  </div>
+                  
+                  <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="equip3.jpg" style="width:80%">
+                    <div class="text">Caption Three</div>
+                  </div>
+                  
+                  <a class="prev" onclick="plusSlides(-1)">❮</a>
+                  <a class="next" onclick="plusSlides(1)">❯</a>
+                  
+                  </div>
+                  <br>
+                  
+                  <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                  </div>
+              </th>
+            </tr>
+        </table>
+</div>
+<div>
+    <table>
+        <tr>
+          <th style="width:50%;background-color: #717171;">
+            <address style="color:black;">
+                Contacter de : <a href="mailto:webmaster@example.com">Agrebi Omar</a>.<br>
+                Visit us at: <br>
+                Agrebi@gmail.com<br>
+                Sfax 3023, <br>
+                Tunisia
+            </address>
+          </th>
+          <th style="width:50%;text-align:right;background-color: #717171;">
+            <a href="https://www.facebook.com/" target="_blank"><img src="facebook.png"  width="50" height="50" ></a>
+            <a href="https://twitter.com/?lang=ar" target="_blank"><img src="twitter.png"  width="50" height="50" ></a>
+          </th>
+        </tr>
+    </table> 
+</div>
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+</body>
+</html>
